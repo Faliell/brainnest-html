@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-front {
+  border-radius: 50%;
+  margin: 70px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.box-header {
+  padding: 30px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: large;
+  flex-grow: 1;
+}
+
+.header-home {
+  flex-grow: 20;
+  text-align: left;
+}
+
+.body-main {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.link {
+  /* display: block; */
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
